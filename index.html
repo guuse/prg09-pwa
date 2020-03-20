@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWA prg09</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Sen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">PWA Guus</h1>
+        <h2 id="onlineStatus"></h2>
+        <div class="filter">
+            <p class="filter-label">Filter: </p>
+            <select  id="tagSelector">
+                <option value="">None</option>
+            </select>
+        </div>
+
+    </header>
+
+    <div id="projects" class="projects">
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.rawgit.com/mozilla/localForage/master/dist/localforage.js"></script>
+</body>
+</html>

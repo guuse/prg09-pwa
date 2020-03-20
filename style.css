@@ -1,0 +1,64 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Sen', sans-serif;
+}
+
+.title {
+
+}
+
+.app {
+
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    flex-grow: 0;
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin: 10px;
+    vertical-align: top;
+    border: 2px black solid;
+    border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project__image-wrapper {
+    height: 250px;
+    position: relative;
+}
+
+.project__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.project__description {
+    word-wrap: break-word;
+    margin-bottom: 0;
+}
+
+.filter {
+    margin: 20px;
+    display: flex;
+    vertical-align: center;
+}
+
+.filter-label {
+    margin: 0 10px;
+}
